@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T19:58:42 IST" name="Default suite" finished-at="2022-10-11T20:00:05 IST" duration-ms="83830">
+    <groups>
+      <group name="Chrome">
+        <method signature="TestFlipkart.LaunchChrome()[pri:0, instance:TestFlipkart@2bfc268b]" name="LaunchChrome" class="TestFlipkart"/>
+        <method signature="TestFlipkart.Chrome()[pri:0, instance:TestFlipkart@2bfc268b]" name="Chrome" class="TestFlipkart"/>
+      </group> <!-- Chrome -->
+      <group name="Edge">
+        <method signature="TestFlipkart.LaunchEdge()[pri:0, instance:TestFlipkart@2bfc268b]" name="LaunchEdge" class="TestFlipkart"/>
+        <method signature="TestFlipkart.Edge()[pri:0, instance:TestFlipkart@2bfc268b]" name="Edge" class="TestFlipkart"/>
+      </group> <!-- Edge -->
+    </groups>
+    <test started-at="2022-10-11T19:58:42 IST" name="Default test" finished-at="2022-10-11T20:00:05 IST" duration-ms="83830">
+      <class name="TestFlipkart">
+        <test-method signature="LaunchChrome()[pri:0, instance:TestFlipkart@2bfc268b]" started-at="2022-10-11T19:58:42 IST" name="LaunchChrome" finished-at="2022-10-11T19:58:44 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method signature="LaunchEdge()[pri:0, instance:TestFlipkart@2bfc268b]" started-at="2022-10-11T19:58:44 IST" name="LaunchEdge" finished-at="2022-10-11T19:58:48 IST" duration-ms="4012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchEdge -->
+        <test-method signature="Chrome()[pri:0, instance:TestFlipkart@2bfc268b]" started-at="2022-10-11T19:58:48 IST" name="Chrome" finished-at="2022-10-11T19:59:01 IST" depends-on-methods="TestFlipkart.LaunchChrome" duration-ms="13176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chrome -->
+        <test-method signature="Edge()[pri:0, instance:TestFlipkart@2bfc268b]" started-at="2022-10-11T19:59:01 IST" name="Edge" finished-at="2022-10-11T20:00:05 IST" depends-on-methods="TestFlipkart.LaunchEdge" duration-ms="64589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edge -->
+      </class> <!-- TestFlipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
